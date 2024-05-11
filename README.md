@@ -1,11 +1,16 @@
 # ontoportal-snapshot
 Bioinformatics - Semantic interoperability: OntoPortal snapshot 
 
+# Abstract
 OntoPortal technology is a generic resource to build ontology repositories or, more broadly, semantic artefact catalogues that can simultaneously co-host and fully support resources that span from SKOS thesauri to OBO, RDF-S, and OWL ontologies. [[1]](#1).
 
 OntoPortal provides endpoints for accessing its content: a REST web service API that returns JSON-LD;
 
 In this work, a batch process has been developed to download a snapshot of the ontologies contained in each OntoPortal repository.
+
+Sometimes it is necessary to have a snapshot of the repositories in order to have reproducibility of the results of the study.
+This tool facilitates the downloading of the latest versions of each ontology by using an appropriate name for the downloaded file and producing reports summarising the overall process. 
+It returns a file with the details of each ontology downloaded, a file with the details of each ontology that could not be downloaded and, finally, a file with the details of the download process itself.
 
 # Usage
 ## Command
