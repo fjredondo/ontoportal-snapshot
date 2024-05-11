@@ -7,6 +7,20 @@ OntoPortal provides endpoints for accessing its content: a REST web service API 
 
 In this work, a batch process has been developed to download a snapshot of the ontologies contained in each OntoPortal repository.
 
-## References
+# Usage
+## Command
+`./ontoportal_download.sh ./repo_list.csv DOWNLOAD_FOLDER`
+
+Where
+
+- **ontoportal_download.sh**: script that makes use of the REST web services API in each OntoPortal repository to download the latest version of each ontology. The ontology is renamed using the repository metadata and the HTTP response data from the server. 
+
+- **DOWNLOAD_FOLDER** Destination directory of the outputs of the process:
+- folders with the ontologies (latest versions) downloaded.
+- ontology_err.csv: list of ontologies not downloaded indicating the error produced.
+- ontology_list.csv: list of downloaded ontologies.
+- output.log: allows you to track the process.
+
+# References
 <a id="1">[1]</a> 
 Jonquet, C. et al. (2023). Ontology Repositories and Semantic Artefact Catalogues with the OntoPortal Technology. In: Payne, T.R., et al. The Semantic Web – ISWC 2023. ISWC 2023. Lecture Notes in Computer Science, vol 14266. Springer, Cham. https://doi.org/10.1007/978-3-031-47243-5_3
