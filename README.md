@@ -6,7 +6,7 @@ OntoPortal technology is a generic resource to build ontology repositories or, m
 
 OntoPortal provides endpoints for accessing its content: a REST web service API that returns JSON-LD;
 
-In this work, a batch process has been developed to download a snapshot of the ontologies contained in each OntoPortal repository.
+In this work, a batch process has been developed to download a snapshot of the ontologies contained in each OntoPortal repository, using the REST web service API.
 
 Sometimes it is necessary to have a snapshot of the repositories in order to have reproducibility of the results of the study.
 This tool facilitates the downloading of the latest versions of each ontology by using an appropriate name for the downloaded file and producing reports summarising the overall process. 
