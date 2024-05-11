@@ -14,9 +14,9 @@ In this work, a batch process has been developed to download a snapshot of the o
 Where
 
 <ul>
-  <li>**ontoportal_download.sh**: script that makes use of the REST web services API in each OntoPortal repository to download the latest version of each ontology. The ontology is renamed using the repository metadata and the HTTP response data from the server.</li>
-  <li>**repo_list.csv**</li>
-  <li>**DOWNLOAD_FOLDER**: Destination directory of the outputs of the process.</li>
+  <li> **ontoportal_download.sh** : script that makes use of the REST web services API in each OntoPortal repository to download the latest version of each ontology. The ontology is renamed using the repository metadata and the HTTP response data from the server.</li>
+  <li> **repo_list.csv** : List of repositories (domain of the URL to access the API of the REST web service) with the keys to access it (APIKey).</li>
+  <li> **DOWNLOAD_FOLDER** : Destination directory of the outputs of the process.</li>
   <ul>
     <li>folders with the ontologies (latest versions) downloaded.</li>
     <li>ontology_err.csv: list of ontologies not downloaded indicating the error produced.</li>
