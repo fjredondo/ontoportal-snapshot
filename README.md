@@ -1,9 +1,10 @@
 # ontoportal-snapshot
 Bioinformatics - Semantic interoperability: OntoPortal snapshot 
 
-Batch process for downloading ontologies from a repository set
+OntoPortal technology as a generic resource to build ontology repositories or, more broadly, semantic artefact catalogues that can simultaneously co-host and fully support resources that span from SKOS thesauri to OBO, RDF-S, and OWL ontologies. [[1]](#1).
+OntoPortal provides endpoints for accessing its content: a REST web service API that returns JSON-LD;
 
-"." [[1]](#1).
+In this work, a batch process has been developed to download a snapshot of the ontologies contained in each OntoPortal repository.
 
 ## References
 <a id="1">[1]</a> 
